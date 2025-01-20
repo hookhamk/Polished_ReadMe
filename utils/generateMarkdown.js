@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return license
-      ? `${renderLicenseBadge(license)}\nThis project is licensed under the ${license} license.\n\n${renderLicenseLink(license)}`
+      ? `${renderLicenseBadge(license)}\n\nThis project is licensed under the ${license} license.\n\n${renderLicenseLink(license)}`
       : "";
 }
 
